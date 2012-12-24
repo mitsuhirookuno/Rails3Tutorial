@@ -41,3 +41,5 @@ gem 'unicorn'
 gem 'haml-rails'
 gem 'thin'
 gem 'libv8', '~> 3.11.8'
+
+gem 'rspec-rails', :group => [:test]
