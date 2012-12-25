@@ -36,10 +36,17 @@ gem 'unicorn'
 
 # To use debugger
 # gem 'debugger'
-
+gem 'pry'
+gem 'pry-rails'
+gem 'pry-nav'
 
 gem 'haml-rails'
 gem 'thin'
 gem 'libv8', '~> 3.11.8'
 
 gem 'rspec-rails', :group => [:test]
+group :test do
+  gem 'simplecov'
+  gem 'spork'
+  gem 'webrat'
+end
