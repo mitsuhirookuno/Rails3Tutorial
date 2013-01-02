@@ -1,6 +1,5 @@
 #!/bin/bash
-echo "hello"
-env
 ruby -v
-rake -T
+bundle install --path vendor/bundler
+
 
