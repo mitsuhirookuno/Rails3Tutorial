@@ -50,4 +50,5 @@ group :test do
   gem 'simplecov-rcov'
   gem 'spork'
   gem 'webrat'
+  gem 'flog'
 end
