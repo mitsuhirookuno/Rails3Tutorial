@@ -44,9 +44,10 @@ gem 'haml-rails'
 gem 'thin'
 gem 'libv8', '~> 3.11.8'
 
-gem 'rspec-rails', :group => [:test]
+gem 'rspec-rails'
 group :test do
   gem 'simplecov'
+  gem 'simplecov-rcov'
   gem 'spork'
   gem 'webrat'
 end
