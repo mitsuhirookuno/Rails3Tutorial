@@ -51,5 +51,6 @@ group :test do
   gem 'spork'
   gem 'webrat'
   gem 'flog'
+  gem 'flay'
 #  gem 'metrical'
 end
