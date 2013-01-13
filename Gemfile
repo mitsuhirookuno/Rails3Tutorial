@@ -54,4 +54,5 @@ group :test do
   gem 'flog'
   gem 'flay'
 #  gem 'metrical'
+  gem 'brakeman'
 end
