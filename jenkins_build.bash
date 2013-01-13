@@ -2,6 +2,6 @@
 source ~/.bash_profile
 bundle install --path vendor/bundler
 bundle exec rspec
-bundle exec flay app
+bundle exec flay app > tmp/flay_report.txt
 
 
