@@ -53,6 +53,9 @@ group :test do
   gem 'webrat'
   gem 'flog'
   gem 'flay'
+  gem 'roodi1.9'
+#  gem 'reek', '~> 1.2.6'
 #  gem 'metrical'
+#  gem 'metric_fu'
   gem 'brakeman'
 end
