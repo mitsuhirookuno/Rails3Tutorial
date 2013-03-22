@@ -59,3 +59,11 @@ group :test do
 #  gem 'metric_fu'
   gem 'brakeman'
 end
+
+group :development do
+  gem 'yard'
+  gem 'redcarpet'
+  gem 'github-markup'
+  gem 'code_analyzer'
+  gem 'rails_best_practices'
+end
