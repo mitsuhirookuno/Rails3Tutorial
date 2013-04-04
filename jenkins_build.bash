@@ -2,6 +2,9 @@
 source ~/.bash_profile
 bundle install --path vendor/bundler
 bundle exec rspec
+if [ $? -ne 0 ]; then
+  exit 1
+fi
 bundle exec flay app lib -d > tmp/flay_report.txt
 bundle exec brakeman -o tmp/brakeman-output.tabs
 bundle exec rails_best_practices -f html --output-file tmp/rails_best_practices_output.html
